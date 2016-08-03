@@ -1,4 +1,4 @@
-# sapappseed
+# SAP App Seed
 SAP Web Application Seed
 
 Skeleton WEB app to run on SAP
