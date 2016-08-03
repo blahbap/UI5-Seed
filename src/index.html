@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en" ng-app="SAPApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SAP App Seed</title>
+  <!-- STYLES -->
+  
+  <!-- build:css lib/css/main.min.css -->
+  <link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="components/rdash-ui/dist/css/rdash.css">
+  <link rel="stylesheet" type="text/css" href="components/angular-ui-notification/dist/angular-ui-notification.min.css">
+  <link rel="stylesheet" type="text/css" href="css/default.css">
+  <!-- endbuild -->
+
+  <!-- SCRIPTS -->
+  <!-- build:js lib/js/main.min.js -->
+  <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="components/angular-cookies/angular-cookies.min.js"></script>
+  <script type="text/javascript" src="components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="components/lodash/dist/lodash.min.js"></script>
+  <script type="text/javascript" src="components/angular-ui-notification/dist/angular-ui-notification.min.js"></script>
+  <script type="text/javascript" src="components/angular-animate/angular-animate.min.js"></script>
+  <script type="text/javascript" src="components/angular-base64/angular-base64.min.js"></script>
+  <!-- endbuild -->
+
+  <!-- Custom Scripts -->
+  <!-- build:js js/dashboard.min.js -->
+  <script type="text/javascript" src="js/module.js"></script>
+  <script type="text/javascript" src="js/routes.js"></script>
+  <script type="text/javascript" src="js/constants.js"></script>
+  <script type="text/javascript" src="js/init.js"></script>
+
+
+  <script type="text/javascript" src="js/controllers/Controller.js"></script>
+  
+
+</head>
+<body ng-controller="MasterController">
+  <div id="page-wrapper" ng-class="{'open': toggle}" ng-cloak>
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <ul class="sidebar">
+        <li class="sidebar-main">
+          <a ng-click="toggleSidebar()">
+            SAP App Seed
+            <span class="menu-icon glyphicon glyphicon-transfer"></span>
+          </a>
+        </li> 
+        <li class="sidebar-title"><span>Navigation</span></li>        
+        <div>          
+          <li class="sidebar-list">
+            <a href="#/home">Home<span class="menu-icon fa fa-home"></span></a>
+          </li>
+        </div>
+      </ul>
+      <!-- <div class="sidebar-footer">
+        <div class="col-xs-4">
+          <a href="#">
+            Support
+          </a>
+        </div>
+      </div> -->
+    </div>
+    <!-- End Sidebar -->  
+
+    <div id="content-wrapper">
+      <div class="page-content">
+
+        <!-- Header Bar -->
+        <div class="row header">
+          <div class="col-xs-12">
+            <div class="meta">
+              <div class="page">
+                Home
+              </div>
+              <div class="breadcrumb-links">
+                Home 
+              </div>
+            </div>  
+          </div>                      
+        </div>  
+        <!-- End Header Bar -->
+
+        <!-- Main Content -->
+        <ui-view></ui-view>
+
+      </div><!-- End Page Content -->
+    </div><!-- End Content Wrapper -->
+  </div><!-- End Page Wrapper -->
+</body>
+
+</html>
