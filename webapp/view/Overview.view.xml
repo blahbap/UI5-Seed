@@ -1,0 +1,14 @@
+<mvc:View
+		controllerName="com.test.issow.controller.List"
+		xmlns="sap.m"
+		xmlns:mvc="sap.ui.core.mvc">
+	<Page 
+		title="ISSOW Procedures"
+		showNavButton="true"
+		navButtonPress="onNav"
+			>
+		<content>
+			<mvc:XMLView viewName="com.test.issow.view.Worklist"/>
+		</content>
+	</Page>
+</mvc:View>

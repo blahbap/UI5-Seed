@@ -7,15 +7,15 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     less = require('gulp-less'),
     rename = require('gulp-rename'),
-    minifyHTML = require('gulp-minify-html');
+    minifyHTML = require('gulp-minify-html'),
+    ui5uploader = require('gulp-nwabap-ui5uploader');
+
 
 var paths = {
-    scripts: 'src/js/**/*.*',
-    styles: 'src/less/**/*.*',
-    images: 'src/img/**/*.*',
-    templates: 'src/templates/**/*.html',
-    index: 'src/index.html',
-    bower_fonts: 'src/components/**/*.{ttf,woff,woff2,eof,svg}',
+    scripts: 'webapp/js/**/*.*',
+    styles: 'webapp/less/**/*.*',
+    images: 'webapp/img/**/*.*',
+    index: 'webapp/index.html',
 };
 
 /**
@@ -48,6 +48,13 @@ gulp.task('copy-bower_fonts', function() {
  */
 gulp.task('build-custom', ['custom-images', 'custom-less', 'custom-templates', 'custom-ui5-binaries']);
 
+//Simple task to just copy all files to "dest" folder 
+gulp.task('copy-to-dest', function() {
+    return gulp.src('webapp/**')
+        .pipe(gulp.dest('dist/'));
+});
+
+
 gulp.task('custom-images', function() {
     return gulp.src(paths.images)
         .pipe(gulp.dest('dist/img'));
@@ -79,9 +86,30 @@ gulp.task('custom-templates', function() {
 });
 
 
+gulp.task('deploy', function() {
+  return gulp.src('webapp/**')
+    .pipe(ui5uploader({
+        root: 'webapp',
+        conn: {
+            server: 'http://achilles.conocophillips.net:8022'
+        },
+        auth: {
+            user: 'fstoedl',
+            pwd: 'Jone2090'
+        },
+        ui5: {
+            package: 'ZISSOW',
+            bspcontainer: 'ZISW_IC_LIST',
+            bspcontainer_text: 'IC Worklist',
+            transportno: 'DE2K9A0P06'
+        },
+    }));
+});
+
+
 /**
  * Gulp tasks
  */
-gulp.task('build', ['usemin', 'build-assets', 'build-custom']);
+gulp.task('build', ['copy-to-dest']);
 gulp.task('default', ['build']);
 

@@ -1,7 +1,7 @@
 {
-  "name": "ABAP Taxi",
+  "name": "UI5",
   "version": "0.0.1",
-  "description": "SAP transports manager",
+  "description": "UI5",
   "authors": [
     "Frank Stødle"
   ],
@@ -15,29 +15,10 @@
     "tests"
   ],
   "dependencies": {
-    "rdash-ui": "1.0.*",
-    "angular": "~1.4.8",
-    "angular-cookies": "~1.4.7",
-    "angular-bootstrap": "~0.13.4",
-    "angular-ui-router": "~0.2.15",
-    "bootstrap": "~3.2.0",
-    "font-awesome": "~4.4.0",
     "lodash": "latest",
-    "angular-ui-notification": "~0.1.0",
-    "angular-animate": "~1.4.8",
-    "angular-base64": "~2.0.5",
-    "moment-timezone": "~0.5.0",
-    "angular-file-saver": "~1.1.1",
-    "angular-sanitize": "~1.4.8",
-    "angular-marked": "~1.0.1",
-    "moment": "~2.10.6"
+    "openui5-sap.ui.core": "openui5/packaged-sap.ui.core#1.40.16",
+    "openui5-sap.m": "openui5/packaged-sap.m#1.40.16",
+    "openui5-themelib_sap_bluecrystal": "openui5/packaged-themelib_sap_bluecrystal#1.40.16"
   },
-  "resolutions": {
-    "angular": "~1.4.7",
-    "angular-cookies": "~1.4.7",
-    "angular-bootstrap": "~0.13.4",
-    "font-awesome": "~4.4.0"
-  },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

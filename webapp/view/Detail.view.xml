@@ -1,0 +1,14 @@
+<mvc:View
+	xmlns="sap.m"
+	controllerName="com.test.issow.controller.Detail"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		title="Detail"
+		showNavButton="true"
+		navButtonPress="onNav">
+		<ObjectHeader
+			intro="{procedure>IC}"
+			title="{procedure>Description}"
+			/>
+	</Page>
+</mvc:View>

@@ -1,0 +1,36 @@
+<mvc:View
+	height="100%"
+	controllerName="com.test.issow.controller.Menu"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<Page
+		title="ISSOW Worklist"
+		showHeader="true"
+		enableScrolling="false" >
+		<TileContainer
+			id="container">			
+			<StandardTile
+				id="executeSteps"
+				icon="sap-icon://clinical-tast-tracker"
+				type="Create"
+				number="12"
+				numberUnit="certificates"
+				title="Sign/Verify steps"
+				info=""
+				infoState="Success" 
+				press="onPress"
+				/>
+			<StandardTile
+				id="barcode"
+				icon="sap-icon://bar-code"
+				type="Create"
+				number="5"
+				numberUnit="tags"
+				title="Scan IP tags"
+				info=""
+				infoState="Error" 
+				press="onPress"
+				/>
+		</TileContainer>		
+	</Page>
+</mvc:View>

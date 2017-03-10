@@ -1,0 +1,132 @@
+{
+  "Procedures": [
+    {
+      "IC": "000031206",
+      "Description": "3P04 - remove PSV 31027",
+      "Created by":"Frank Stødle",
+      "Created on":"2016.03.12",
+      "type":"For issue",
+      "isTemplate":"false"
+    },
+    {
+      "IC": "000031277",
+      "Description": "PM63540 12M 3TK13 THML R\/SIDE PSV31010 OHAUL"
+    },
+    {
+      "IC": "000031280",
+      "Description": "Isolation of S&T DCS Temp transformer"
+    },
+    {
+      "IC": "000031313",
+      "Description": "6FS02 Isolations for modifications to the West Boiler stack."
+    },
+    {
+      "IC": "000031423",
+      "Description": "ISOLATION OF 53D03 & 53D04 FOR OUTLET ROTORKS CHANGE TO ROSOVS"
+    },
+    {
+      "IC": "000031435",
+      "Description": "3P11-Greatham firewater pump removal"
+    },
+    {
+      "IC": "000031437",
+      "Description": "Utility Station J4, 5, 6, 8 N2 NRV PM"
+    },
+    {
+      "IC": "000031494",
+      "Description": "PM's 66335, 66336, 66337  24M US-J10\/11\/12 N-2 NRV O\/HAUL"
+    },
+    {
+      "IC": "000031498",
+      "Description": "PM62801 36M J3LA05 PROPANE PSV93307 O'HAUL"
+    },
+    {
+      "IC": "000031510",
+      "Description": "PM62851 6M 3P04 G\/HAM CRUDE PSV O'HAUL"
+    },
+    {
+      "IC": "000031571",
+      "Description": "6FS01 - East boiler stack. Instrument isolation of emissions analyser."
+    },
+    {
+      "IC": "000031576",
+      "Description": "PM63239 24M J4MC06 O\/LET HDR PSV71621 O'HAUL"
+    },
+    {
+      "IC": "000031578",
+      "Description": "J6LA01-  Mech coupler pm"
+    },
+    {
+      "IC": "000031628",
+      "Description": "63-P-01 Fed From Sub 4B MCC L3"
+    },
+    {
+      "IC": "000031654",
+      "Description": "Potable Water Supply Line - Bypass Valve. Electrical Trace Heating IsolationElect\/Mech Depts to Remove\/ Replace 26-TK-18 Lube Oil Heater"
+    },
+    {
+      "IC": "000031873",
+      "Description": "Modification to S&T condensate line"
+    },
+    {
+      "IC": "000031921",
+      "Description": "Removal\/Replacement of mono pump 67P26 Biocat"
+    },
+    {
+      "IC": "000031924",
+      "Description": "PM62727 36M J3LA05 C'DOWN RET.PSV OHAUL"
+    },
+    {
+      "IC": "000031958",
+      "Description": "LTI of propane fuel pumps."
+    },
+    {
+      "IC": "000032007",
+      "Description": "67P27 Biocat pump for removal"
+    },
+    {
+      "IC": "000032188",
+      "Description": "3TK04 roof access"
+    },
+    {
+      "IC": "000032259",
+      "Description": "Cold Vent Shutdown"
+    },
+    {
+      "IC": "000032291",
+      "Description": "Modification to S&T condensate line (Utility side)"
+    },
+    {
+      "IC": "000032415",
+      "Description": "MP Steam Trap 25A - Tying into MP Condensate Header"
+    },
+    {
+      "IC": "000032439",
+      "Description": "Jetty 8 Slop Tank Line 651T168-807"
+    },
+    {
+      "IC": "000032509",
+      "Description": "6FS02 - West boiler stack. Instrument isolation of emissions analyser."
+    },
+    {
+      "IC": "000032520",
+      "Description": "Isolate 3-P-08 due to faulty bi-metallic strip."
+    },
+    {
+      "IC": "000032528",
+      "Description": "HC71121 positioner removal"
+    },
+    {
+      "IC": "000032551",
+      "Description": "52PT20 - Discharge PI valve fab repair."
+    },
+    {
+      "IC": "000032626",
+      "Description": "Isolate for 63P165\/166 -  PSV61143 and PSV61144 checkset"
+    },
+    {
+      "IC": "000032627",
+      "Description": "3P06 - remove PSV 31028 for pm62852}"
+    }
+  ]
+}

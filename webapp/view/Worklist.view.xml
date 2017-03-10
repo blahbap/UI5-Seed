@@ -1,0 +1,26 @@
+<mvc:View	displayBlock="true" 
+			xmlns:mvc="sap.ui.core.mvc" 
+			xmlns="sap.m" 
+			xmlns:core="sap.ui.core" 
+			xmlns:l="sap.ui.layout"
+			xmlns:f="sap.ui.layout.form" 
+			controllerName="com.test.issow.controller.List">
+					<List
+						  id="ICList"
+					      class="sapUiResponsiveMargin"
+					      width="auto"
+					      items="{
+					         path : 'procedure>/Procedures',
+					         sorter : {
+					            path : 'IC' 
+					         }
+					      }" >
+					      <items>
+					         <ObjectListItem
+					            title="{procedure>IC} - {procedure>Description}"
+					            type="Navigation"
+								press="onPress"
+					            />
+					      </items>
+					</List>				
+</mvc:View>

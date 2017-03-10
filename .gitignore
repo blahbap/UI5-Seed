@@ -45,7 +45,7 @@ Icon
 /node_modules
 
 # Bower components
-/src/components
+/webapp/components
 
 # Configuration 
 /config-CoP
