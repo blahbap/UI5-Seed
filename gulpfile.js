@@ -91,17 +91,17 @@ gulp.task('deploy', function() {
     .pipe(ui5uploader({
         root: 'webapp',
         conn: {
-            server: 'http://achilles.conocophillips.net:8022'
+            server: 'http://sapserver'
         },
         auth: {
-            user: 'fstoedl',
-            pwd: 'Jone2090'
+            user: 'user',
+            pwd: 'pass'
         },
         ui5: {
             package: 'ZISSOW',
             bspcontainer: 'ZISW_IC_LIST',
             bspcontainer_text: 'IC Worklist',
-            transportno: 'DE2K9A0P06'
+            transportno: 'TRANSPORTNR'
         },
     }));
 });
