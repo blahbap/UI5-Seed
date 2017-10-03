@@ -1,5 +1,5 @@
 <mvc:View
-		controllerName="com.test.issow.controller.App"
+		controllerName="com.test.app.controller.App"
 		xmlns="sap.m"
 		xmlns:mvc="sap.ui.core.mvc"
 		displayBlock="true">

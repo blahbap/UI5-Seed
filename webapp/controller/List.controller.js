@@ -2,7 +2,7 @@ sap.ui.define([
 	"sap/ui/core/mvc/Controller"], 
 	function (Controller) {
 	"use strict";
-	return Controller.extend("com.test.issow.controller.List", {
+	return Controller.extend("com.test.app.controller.List", {
 		onPress: function (oEvent) {
 			var oItem = oEvent.getSource();
 			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);

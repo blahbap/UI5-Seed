@@ -1,6 +1,6 @@
 <mvc:View
 	xmlns="sap.m"
-	controllerName="com.test.issow.controller.Detail"
+	controllerName="com.test.app.controller.Detail"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Page
 		title="Detail"

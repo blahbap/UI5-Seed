@@ -4,7 +4,7 @@
 			xmlns:core="sap.ui.core" 
 			xmlns:l="sap.ui.layout"
 			xmlns:f="sap.ui.layout.form" 
-			controllerName="com.test.issow.controller.List">
+			controllerName="com.test.app.controller.List">
 					<List
 						  id="ICList"
 					      class="sapUiResponsiveMargin"

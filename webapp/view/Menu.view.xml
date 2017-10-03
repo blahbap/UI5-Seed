@@ -1,10 +1,10 @@
 <mvc:View
 	height="100%"
-	controllerName="com.test.issow.controller.Menu"
+	controllerName="com.test.app.controller.Menu"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m">
 	<Page
-		title="ISSOW Worklist"
+		title="app Worklist"
 		showHeader="true"
 		enableScrolling="false" >
 		<TileContainer

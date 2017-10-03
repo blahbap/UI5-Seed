@@ -2,7 +2,7 @@
 	"_version": "1.4.0",
 	"sap.app": {
 		"_version": "1.3.0",
-		"id": "com.test.issow",
+		"id": "com.test.app",
 		"type": "application",
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
@@ -24,7 +24,7 @@
 	"sap.ui5": {
 		"_version": "1.2.0",
 		"rootView": {
-			"viewName": "com.test.issow.view.App",
+			"viewName": "com.test.app.view.App",
 			"type": "XML",
 			"id": "app"
 		},
@@ -49,7 +49,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "com.test.issow.i18n.i18n"
+					"bundleName": "com.test.app.i18n.i18n"
 				}
 			},
 			"procedure": {
@@ -61,7 +61,7 @@
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
-				"viewPath": "com.test.issow.view",
+				"viewPath": "com.test.app.view",
 				"controlId": "app",
 				"controlAggregation": "pages"
 			},

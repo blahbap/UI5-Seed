@@ -1,3 +1,6 @@
 {
-  "directory" : "webapp/components"
+  "directory" : "webapp/components",
+  "proxy": "http://www-authproxy.statoil.net:80",
+  "https-proxy":"http://www-authproxy.statoil.net:80",
+  "strict-ssl": false
 }

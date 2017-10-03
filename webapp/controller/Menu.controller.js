@@ -2,7 +2,7 @@ sap.ui.define([
 	"sap/ui/core/mvc/Controller"], 
 	function (Controller) {
 	"use strict";
-	return Controller.extend("com.test.issow.controller.Menu", {
+	return Controller.extend("com.test.app.controller.Menu", {
 		onInit: function() {
 		},
 		onPress: function(oEvent) {			

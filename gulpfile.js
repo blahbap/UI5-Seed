@@ -98,9 +98,9 @@ gulp.task('deploy', function() {
             pwd: 'pass'
         },
         ui5: {
-            package: 'ZISSOW',
-            bspcontainer: 'ZISW_IC_LIST',
-            bspcontainer_text: 'IC Worklist',
+            package: 'ZPACKAGE',
+            bspcontainer: 'ZBSP_APPLICATION',
+            bspcontainer_text: 'BSP APP NAME',
             transportno: 'TRANSPORTNR'
         },
     }));
